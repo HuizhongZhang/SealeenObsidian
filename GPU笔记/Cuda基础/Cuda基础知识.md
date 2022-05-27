@@ -1,4 +1,13 @@
-l **Cuda基础
+ #### 1 GPU主要硬件结构
+
+**SM，Stream Multiprocessor流多处理器**：包含多个（64）流处理器，Wrap线程块（32）创建、管理、调度和执行
+
+**硬件属性获取**：
+```cudaGetDevice(&deviceId), cudaGetDeviceProperties(&props, devicedId);```
+ props.major / minor / multiProcessorCount / warpSize
+
+![](file:///C:\Users\mi\AppData\Local\Temp\ksohtml14008\wps30.jpg)![](file:///C:\Users\mi\AppData\Local\Temp\ksohtml14008\wps31.jpg)
+#### 2 Cuda基础
 
 **Gpu执行步骤：**执行完要和cpu同步，cudaDeviceSynchronized();
 

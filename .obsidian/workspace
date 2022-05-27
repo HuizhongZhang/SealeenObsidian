@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "GPU笔记/Cuda基础/未命名.md",
+            "file": "个人管理/学习目标与日程表.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GPU笔记/Cuda基础/未命名.md",
+                "file": "个人管理/学习目标与日程表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,15 +90,15 @@
   },
   "active": "62a481fa7384f291",
   "lastOpenFiles": [
-    "GPU笔记/Cuda基础/未命名.md",
-    "GPU笔记/Cuda基础/Cuda基础.md",
+    "个人管理/学习目标与日程表.md",
+    "高性能计算HPC笔记/面试真题-代码题.md",
+    "高性能计算HPC笔记/面试真题-知识点.md",
+    "数据结构与算法/DFS与BFS.md",
+    "GPU笔记/Cuda基础/Cuda基础知识.md",
+    "GPU笔记/GPU加速产品概述.md",
+    "GPU笔记/Cuda基础/Cuda内存管理.md",
+    "GPU笔记/Cuda基础/Cuda流.md",
     "GPU笔记/Cuda基础/Cuda矩阵运算与性能分析.md",
-    "GPU笔记/未命名.md",
-    "GPU笔记/GPU架构发展概述.md",
-    "深度学习原理/TF与Pytorch对比.md",
-    "python笔记/面试真题-算子实现.md",
-    "python笔记/python常见用法.md",
-    "操作系统/内存管理.md",
-    "操作系统/进程与线程.md"
+    "GPU笔记/GPU架构发展概述.md"
   ]
 }

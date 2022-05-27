@@ -4,5 +4,6 @@
   "attachmentFolderPath": "images",
   "newFileLocation": "current",
   "newFileFolderPath": "",
-  "promptDelete": false
+  "promptDelete": false,
+  "alwaysUpdateLinks": true
 }
