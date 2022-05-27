@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "深度学习原理/深度学习基础.md",
+            "file": "GPU笔记/Cuda基础/未命名.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "深度学习原理/深度学习基础.md",
+                "file": "GPU笔记/Cuda基础/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,15 +90,15 @@
   },
   "active": "62a481fa7384f291",
   "lastOpenFiles": [
-    "深度学习原理/深度学习基础.md",
-    "C vs C++/Const和宏.md",
-    "C vs C++/锁与并行.md",
-    "C++笔记/C++相关资料.md",
-    "C++笔记/类与多态/类与函数.md",
-    "C++笔记/函数与多态/函数传参.md",
-    "C++笔记/类与多态/类基础.md",
-    "C++笔记/函数与多态/函数内联.md",
-    "C++笔记/类与多态/多态.md",
-    "C++笔记/类与多态/类的继承与友元.md"
+    "GPU笔记/Cuda基础/未命名.md",
+    "GPU笔记/Cuda基础/Cuda基础.md",
+    "GPU笔记/Cuda基础/Cuda矩阵运算与性能分析.md",
+    "GPU笔记/未命名.md",
+    "GPU笔记/GPU架构发展概述.md",
+    "深度学习原理/TF与Pytorch对比.md",
+    "python笔记/面试真题-算子实现.md",
+    "python笔记/python常见用法.md",
+    "操作系统/内存管理.md",
+    "操作系统/进程与线程.md"
   ]
 }
