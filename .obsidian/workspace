@@ -11,6 +11,7 @@
           "state": {
             "file": "深度学习原理/深度学习基础.md",
             "mode": "source",
+            "backlinks": true,
             "source": false
           }
         }
