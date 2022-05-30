@@ -7,13 +7,8 @@
         "id": "6215bc479af1d27f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "个人管理/学习目标与日程表.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -70,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "个人管理/学习目标与日程表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,15 +84,15 @@
   },
   "active": "6215bc479af1d27f",
   "lastOpenFiles": [
+    "数据结构与算法/DFS与BFS.md",
+    "操作系统/进程与线程.md",
+    "C++笔记/类与多态/多态.md",
     "个人管理/学习目标与日程表.md",
     "高性能计算HPC笔记/面试真题-代码题.md",
     "高性能计算HPC笔记/面试真题-知识点.md",
-    "数据结构与算法/DFS与BFS.md",
     "GPU笔记/Cuda基础/Cuda基础知识.md",
     "GPU笔记/GPU加速产品概述.md",
     "GPU笔记/Cuda基础/Cuda内存管理.md",
-    "GPU笔记/Cuda基础/Cuda流.md",
-    "GPU笔记/Cuda基础/Cuda矩阵运算与性能分析.md",
-    "GPU笔记/GPU架构发展概述.md"
+    "GPU笔记/Cuda基础/Cuda流.md"
   ]
 }
