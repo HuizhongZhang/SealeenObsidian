@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "C++笔记/函数与多态/函数传参.md",
+            "file": "C++笔记/复合类型与指针/数组、函数与指针.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++笔记/函数与多态/函数传参.md",
+                "file": "C++笔记/复合类型与指针/数组、函数与指针.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,11 +90,11 @@
   },
   "active": "6215bc479af1d27f",
   "lastOpenFiles": [
+    "C++笔记/复合类型与指针/数组、函数与指针.md",
     "C++笔记/函数与多态/函数传参.md",
-    "C++笔记/复合类型与指针/引用与指针.md",
-    "C++笔记/复合类型与指针/数组与数组指针.md",
-    "C++笔记/复合类型与指针/指针基础.md",
     "C++笔记/复合类型与指针/结构体与结构体指针.md",
+    "C++笔记/复合类型与指针/引用与指针.md",
+    "C++笔记/复合类型与指针/指针基础.md",
     "个人管理/学习目标与日程表.md",
     "数据结构与算法/DFS与BFS.md",
     "操作系统/进程与线程.md",
