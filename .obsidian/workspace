@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "C++笔记/类与多态/类成员与静态成员.md",
+            "file": "C++笔记/类与多态/C++对象模型与this指针.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++笔记/类与多态/类成员与静态成员.md",
+                "file": "C++笔记/类与多态/C++对象模型与this指针.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,15 +90,15 @@
   },
   "active": "6215bc479af1d27f",
   "lastOpenFiles": [
-    "C++笔记/类与多态/类成员与静态成员.md",
-    "C++笔记/类与多态/拷贝构造函数和调用规则.md",
     "C++笔记/类与多态/C++对象模型与this指针.md",
+    "C++笔记/类与多态/多态.md",
+    "C++笔记/类与多态/拷贝构造函数和调用规则.md",
+    "C++笔记/类与多态/类成员与静态成员.md",
     "C++笔记/类与多态/类基础和构造析构.md",
     "C++笔记/类与多态/类模板.md",
     "C++笔记/类与多态/类的继承与友元.md",
     "C++笔记/类与多态/类与函数.md",
     "C++笔记/函数与多态/函数重载与重写.md",
-    "C++笔记/函数与多态/函数传参.md",
-    "C++笔记/复合类型与指针/引用与指针.md"
+    "C++笔记/函数与多态/函数传参.md"
   ]
 }
