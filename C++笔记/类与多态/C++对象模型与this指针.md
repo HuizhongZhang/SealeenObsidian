@@ -69,7 +69,39 @@ stdout:
 
 #### 3 空指针调用成员函数
 - **作用**：空对象指针可以调成员函数，但不能包含成员变量（this指针为空报错）；
+```cpp
+class Person {
+public:
+    Person(int age) {
+        age_ = age;
+    }
+    void showClassName() {
+        cout << "class name is Person" << endl;
+    }
+    void showAge() {
+        // 提高代码健壮性
+        if (this == nullptr) {
+            cout << "this指针为空" << endl;
+            return;
+        }
+        cout << "age is" << age_ << endl; // 等同于this->age_
+    }
+    int age_;
+};
 
+// 空指针调用成员函数
+void test01() {
+    Person* p = nullptr;
+    p->showClassName();
+    p->showAge(); // 不能包含成员变量,this指针为空报错
+}
+```
+stdout:
+```cpp
+class name is Person
+this指针为空
+```
 
 #### 4 常函数和常对象
-- **常函数和常对象**：const常函数不能修改成员变量（mutable除外），常对象只能调用常函数；
+- **常函数**：成员函数后加const，不能修改成员属性（成员属性声明时加mutable除外）
+- **常对象**：声明对象前加const，常对象只能调用常函数；
