@@ -105,3 +105,44 @@ this指针为空
 #### 4 常函数和常对象
 - **常函数**：成员函数后加const，不能修改成员属性（成员属性声明时加mutable除外）
 - **常对象**：声明对象前加const，常对象只能调用常函数；
+- **实现原理**：this指针的本质是指针常量```类名* const this```，指向不可修改；加上const修饰符后变为```const 类名* const this```，指向和值都不可修改；
+```cpp
+class Person {
+public:
+    Person(int age) {
+        age_ = age;
+    }
+
+    void getAge() {
+        cout << name_ << " age is: " << age_ << endl; // 等同于this->age_      
+    }
+
+    void show() const {
+        // this == nullptr; // 指向不可修改
+        // age_ = 20; //相当于this->age_, 常函数中不能修改成员变量
+        name_ = "Sealeen"; // mutable成员变量除外
+        cout << name_ << " age is: " << age_ << endl; // 等同于this->age_
+    }
+    int age_;
+    mutable string name_;
+};
+// 常函数
+void test01() {
+    Person p(10);
+    p.show();
+}
+// 常对象
+void test02() {
+    const Person p(20); // 对象前加const是常对象
+    // p.age_ = 10; // 常对象不能修改成员变量
+    p.name_ = "Leaf"; // mutable除外
+    // 常对象只能调用常函数
+    p.show();
+    // p.getAge(); // 不能调用普通成员函数，因为可能会修改成员变量
+}
+```
+stdout:
+```cpp
+Sealeen age is: 10
+Sealeen age is: 20
+```
